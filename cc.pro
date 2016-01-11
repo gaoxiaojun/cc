@@ -4,7 +4,7 @@
 
 TEMPLATE = app
 TARGET = cc
-INCLUDEPATH += .
+INCLUDEPATH += . include src/cmd/6l
 
 # Input
 HEADERS += include/ar.h \
@@ -575,7 +575,6 @@ DISTFILES += \
     src/cmd/gc/mkopnames \
     src/runtime/mknacl.sh \
     src/cmd/dist/dist.pro.user \
-    cc.pro.user \
     include/plan9/mklibc.rc \
     src/cmd/cc/lexbody \
     src/cmd/cc/macbody \

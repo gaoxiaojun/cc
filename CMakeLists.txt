@@ -111,16 +111,24 @@ src/libbio/bseek.c
 set (LIBLINK_SRC
 src/liblink/anames6.c
 src/liblink/asm6.c
-src/liblink/data.c
-src/liblink/go.c
-src/liblink/ld.c
 src/liblink/list6.c
-src/liblink/obj.c
 src/liblink/obj6.c
+#src/liblink/anames5.c
+#src/liblink/asm5.c
+#src/liblink/list5.c
+#src/liblink/obj5.c
+#src/liblink/anames8.c
+#src/liblink/asm8.c
+#src/liblink/list8.c
+#src/liblink/obj8.c
 src/liblink/objfile.c
 src/liblink/pass.c
 src/liblink/pcln.c
 src/liblink/sym.c
+src/liblink/data.c
+src/liblink/go.c
+src/liblink/ld.c
+src/liblink/obj.c
 )
 
 set (LIB6C_SRC
