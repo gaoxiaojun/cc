@@ -563,7 +563,8 @@ SOURCES += src/lib9/_exits.c \
            src/runtime/cgo/iscgo.c \
            src/runtime/cgo/netbsd.c \
            src/runtime/cgo/openbsd.c \
-           src/runtime/cgo/setenv.c
+           src/runtime/cgo/setenv.c \
+    src/liblink/anames6.c
 
 DISTFILES += \
     src/runtime/race/race_darwin_amd64.syso \
