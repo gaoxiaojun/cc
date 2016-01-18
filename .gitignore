@@ -30,7 +30,7 @@ misc/cgo/stdio/run.out
 misc/cgo/testso/main
 misc/dashboard/builder/builder
 src/cmd/?a/y.output
-src/liblink/anames?.c
+##src/liblink/anames?.c
 src/cmd/cc/y.output
 src/cmd/cgo/zdefaultcc.go
 src/cmd/dist/dist.dSYM
